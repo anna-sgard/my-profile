@@ -1,0 +1,120 @@
+h1 {
+  color: black;
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+h2, h3, h4, h5 {
+  font-family: Comic Sans
+  text-align: center;
+  font-size: 30px;
+  line-height: 20px ; 
+  text-decoration: underline;
+}
+body {
+  color: black;
+  font-family: Comic Sans;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  background-color: black; 
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 20px ; 
+  letter-spacing:1px;
+  margin: 10px 10px 10px 10px; 
+  padding: 10px 10px 10px 10px;
+}
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
+}
+h4 {
+  color: black;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
+.square {
+  background-color: #ffffd2;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 30px;
+  margin: 20px 10px;
+  text-align: center;
+}
+#Profil, #Inspiration, #Travel, #Art {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px black;
+  text-align: center;
+  display: inline-block;
+  margin: 15px
+}
+.btn {
+  background-color: #aa96da;
+  color: #ffffd2;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+.btn:hover {
+  background-color: #fcbad3;
+  color: #ffffd2;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+.list-inline i {
+  font-size: 60px;
+  color: #aa96da;
+}
+.list-inline i:hover {
+  color: #fcbad3;
+}
+
+#text p {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
